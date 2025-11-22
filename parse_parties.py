@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 URL = "https://minjust.gov.ru/ru/pages/politicheskie-partii/"
 BASE_URL = "https://minjust.gov.ru" # базовый домен для относительных ссылок
 
-# Локальный файл со скачанным HTML и файл для сохранения результата
+# Локальный файл со скачанным HTML (INPUT_FILE) и файл для сохранения результата (OUTPUT_FILE)
 INPUT_FILE = "page.html"
 OUTPUT_FILE = "parties.json"
 
@@ -64,7 +64,7 @@ def parse_parties(html_content):
     Извлекает список политических партий и ссылки на их документы
     из HTML-страницы Минюста.
 
-    Пример: на странице блок со списком партий выглядит так:
+    Пример: на HTML-странице блок со списком партий выглядит так:
     ------------------------------------------------------
     <div class="page-block" id="section-765">
         <h3>Cписок зарегистрированных политических партий</h3>
