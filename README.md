@@ -22,8 +22,8 @@ Landing page: https://minjust.gov.ru/ru/pages/politicheskie-partii/
 Since a direct request via requests can lead to errors, a **local HTML file** is used. 
 It is saved manually:
 1. Open the page in a browser.
-2. Right-click -> **Сохранить страницу как...** (***Ctrl + S***)
-3. Format: **Веб-страница, только HTML (.html; .htm)**
+2. Right-click -> **Save page as...** (***Ctrl + S***)
+3. Format: **Web page, HTML only (.html; .htm)**
 4. File name: **page.html**
 5. Place this file in the root of the project next to **parse_parties.py** (*C:\Users\User\parsing-political-parties*)
 
@@ -108,7 +108,7 @@ After launching, you will see a list of parties in the *console/terminal*, and t
 Данные сохранены в parties.json
 ```
 
-**Файл "parties.json":**
+**File "parties.json":**
 ```bash
 [
   {
