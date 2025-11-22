@@ -29,7 +29,7 @@ It is saved manually:
 
 This is the file that will be processed by the program.
 
-**Project structure**
+## Project structure
 ```bash
 parsing-political-parties
 ├─ .gitignore        # excludes venv/, __pycache__/, *.pyc, and other temporary files for Python
