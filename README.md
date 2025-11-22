@@ -13,7 +13,9 @@ The program:
 3. Outputs the found data to the console
 4. Saves the result to the parties.json file
 
-## Data: *Where does HTML come from and how do you prepare it?*
+## Data
+
+**Where does HTML come from and how do you prepare it?**
 
 Landing page: https://minjust.gov.ru/ru/pages/politicheskie-partii/
 
