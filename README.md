@@ -23,7 +23,7 @@ Since a direct request via requests can lead to errors, a **local HTML file** is
 It is saved manually:
 1. Open the page in a browser.
 2. Right-click -> **Сохранить страницу как...** (***Ctrl + S***)
-3. Format: **Веб-страница, только HTML (*.html; *.htm)**
+3. Format: **Веб-страница, только HTML (.html; .htm)**
 4. File name: **page.html**
 5. Place this file in the root of the project next to **parse_parties.py** (*C:\Users\User\parsing-political-parties*)
 
